@@ -1,5 +1,5 @@
 # Thermal Mod for Snapdragon 660
-Custom Thermal Mod and Drivers for Snapdragon 660 + Perf Boost Custom Config
+Custom Thermal and Drivers Mod for Snapdragon 660 + Perf Boost Custom Config
 
 ## Feature
 - Add thermal config mod
