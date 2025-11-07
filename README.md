@@ -1,2 +1,17 @@
-# Thermal-Mod-for-Snapdragon-660
+# Thermal Mod for Snapdragon 660
 Custom Thermal Mod and Drivers for Snapdragon 660 + Perf Boost Custom Config
+
+## Feature
+- Add thermal config mod
+- Add thermal drivers libs mod
+- Add thermal MSM tweak
+- Add thermal atd service
+
+## Support on Magisk V21+
+
+## How to use
+- Must root with Magisk
+- Flash Module magisk Thermal Mod on magisk manager
+- And enjoyyy
+
+
