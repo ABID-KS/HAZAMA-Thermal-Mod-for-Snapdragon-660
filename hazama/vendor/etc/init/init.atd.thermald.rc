@@ -1,0 +1,15 @@
+# H A Z A M A - T H E R M A L
+ on property:sys.boot_completed=1
+	symlink /vendor/bin/thermalAtdTool /data/data/Thermal
+	chmod 0777 /data/data/Thermal
+	start AThermalService
+
+on property:debug.thermal_engine.reset=1
+	start AThermalService
+
+on property:debug.lmh=*
+   start AThermalService
+on property:vendor.thermal.lmh_freq1=*
+   setprop debug.thermal.lmh_freq1 ${vendor.thermal.lmh_freq1}
+on property:vendor.thermal.lmh_freq0=*
+   setprop debug.thermal.lmh_freq0 ${vendor.thermal.lmh_freq0}

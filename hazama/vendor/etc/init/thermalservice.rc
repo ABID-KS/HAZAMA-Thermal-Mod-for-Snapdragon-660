@@ -1,0 +1,8 @@
+# HAZAMA
+#!/system/bin/sh
+
+
+service thermalservice /system/vendor/bin/thermal-engine
+    class core
+    user root
+    group root
